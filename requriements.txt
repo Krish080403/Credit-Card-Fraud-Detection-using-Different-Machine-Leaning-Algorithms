@@ -1,0 +1,30 @@
+# Core Libraries
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+xgboost
+lightgbm
+shap
+
+# Visualization Libraries
+matplotlib
+seaborn
+
+# Jupyter Notebook
+jupyterlab
+
+# GPU-Accelerated Libraries (Install via conda for compatibility)
+# Ensure that your system has a compatible NVIDIA GPU and CUDA drivers installed.
+# It's recommended to create a new conda environment and install RAPIDS libraries as per their official guidelines.
+# For example:
+# conda create -n rapids-22.12 -c rapidsai -c nvidia -c conda-forge \
+#     cudf=22.12 cuml=22.12 python=3.8 cudatoolkit=11.0
+# More details: https://rapids.ai/start.html
+
+# The following are placeholders to indicate the need for these libraries.
+# Do NOT install them via pip.
+# cudf
+# cuml
+# cupy
+
